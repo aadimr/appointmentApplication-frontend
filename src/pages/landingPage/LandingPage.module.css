@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    display: flex;
+    background: url("https://bookafy.com/wp-content/uploads/2020/02/Book-Your-Appointment-Online-Hairdresser-Booking-App.jpg")no-repeat center center/cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.mainContainer p {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    width: 50rem;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.btnContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.btnContainer Button {
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 2rem;
+    color: rgb(14, 131, 185);
+}
+
+.btnContainer :first-child {
+    background-color: rgb(14, 131, 185);
+    border-radius: 2rem;
+    color: white;
+}

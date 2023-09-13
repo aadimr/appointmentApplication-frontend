@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mainContainer{
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    /* position: sticky; */
+    position: fixed;
+    top: 0px;
+    /* background-color: white; */
+    background-color: rgba(0, 0, 0, 0.194);
+}
+
+.logo{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 5rem;
+}

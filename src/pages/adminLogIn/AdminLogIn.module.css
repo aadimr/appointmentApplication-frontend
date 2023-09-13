@@ -1,0 +1,57 @@
+/* className="text-[#0352d0] cursor-pointer" */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer Input {
+    width: 28rem;
+    padding: 10px 11px;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+.visibilityIconContainer {
+    width: 28rem;
+    display: flex;
+}
+
+.visibilityIconContainer span {
+    color: #0352d0;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+}
+
+.label {
+    color: #6c6d71;
+    width: 28rem;
+    display: flex;
+    font-size: 1.1rem;
+}
+
+.inputContainer {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    width: 28rem;
+    padding: 10px 11px;
+    font-size: 1.2rem;
+    background-color: #1b63d8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
